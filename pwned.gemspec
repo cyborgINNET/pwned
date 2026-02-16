@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.executables = ["pwned"]
 
-  spec.add_development_dependency "bundler", ">= 3", "< 5.0"
+  spec.add_development_dependency "bundler", ">= 2", "< 5.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "webmock", "~> 3.3"
